@@ -1,6 +1,6 @@
 # REST API Server for Archives World Map dataset
 
-This is the first version of Geodata REST API server of Archives World Map (https://www.archivesmap.org)
+The first version of geodata REST API server of Archives World Map (https://www.archivesmap.org).
 
 ## Contribution from
 
