@@ -31,7 +31,13 @@ func returnInstitution(w http.ResponseWriter, r *http.Request) {
 		}
 
 		// From row to Institution
-		institution = append(institution, Institution{ID: id, Name: name, Latitude: latitude, Longitude: longitude, Country: country})
+		institution = append(institution, Institution{
+			ID:        id,
+			Name:      name,
+			Latitude:  latitude,
+			Longitude: longitude,
+			Country:   country,
+		})
 	}
 
 	// Return json
