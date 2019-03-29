@@ -2,7 +2,7 @@
 
 The first version of geodata REST API server of Archives World Map (https://www.archivesmap.org).
 
-## Contribution from
+## Contributors
 
 - Fernando Lima (from https://t.me/raulhackerclubnaooficial)
 - Igor Garcia, @iggar (from https://t.me/raulhackerclubnaooficial)
