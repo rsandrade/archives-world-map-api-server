@@ -58,7 +58,7 @@ func nearInstitutions(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Send back to app the nearest institutions in json format
-	w.Header().Set("Content-Type", "application/json")
+	w.Header().Set("Content-Type", "application/json; charset=UTF-8")
 	json.NewEncoder(w).Encode(institutions)
 
 }
