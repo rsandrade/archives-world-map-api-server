@@ -26,13 +26,7 @@ var country string
 func main() {
 
 	router := mux.NewRouter()
-	//router.Host("archivesmap.org")
-	//router.Schemes("https")
-
-	//router.HandleFunc("/institution/{id}", returnInstitution)
-	//router.HandleFunc("/institutions", returnAllInstitutions)
 	router.HandleFunc("/nearestinstitutions/{longitude}/{latitude}", nearInstitutions)
 
-	//router.ListenAndServe(":8443")
 	http.ListenAndServeTLS(":8443", "server.crt", "server.key", router)
 }
